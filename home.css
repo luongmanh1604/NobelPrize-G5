@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+  }
+  body {
+    margin: 50px;
+  }
+  .header {
+    text-align: center;
+  }
+  .tieude {
+    color: rgb(230, 140, 23);
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .inmenu {
+    max-width: 1500px;
+    margin: 0 auto;
+  
+  }
+  .menu {
+    justify-items: center;
+    background-color: rgb(230, 140, 23);
+    margin-bottom: 5px;
+  }
+  .mainmenu {
+   display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .mainmenu li a {
+    color: black;
+    display: inline;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition: 0.4s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+   margin-left: 33px;
+    text-align: center;
+  }
+  .mainmenu li {
+    float:left;
+    
+  }
+  
+  
+  
+  li a {
+    font-size: 20px;
+  }
+  li a:hover {
+    background-color: rgb(227, 179, 117);
+  }
+  .image {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  
+  }
+  
+  
+  footer {
+    background-color: rgb(241, 216, 183);
+    border: 2px solid black;
+    margin-top: 20px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width:800px) {
+    .column {
+      width: 100%;
+    }
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  /* css văn học */
+  form {
+  box-shadow: 5px 5px rgb(243, 241, 234);
+    border:solid 0.5px;
+    border-color: rgb(190, 187, 187);
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-left: 50px;
+    background-color: rgb(243, 248, 248);
+  }
+  .img {
+    border-radius: 10px;
+   width: 350px;
+   height: 350px;
+    max-width: 100%;
+    max-height: 100%;
+    
+  
+  }
+  .tieude2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(245, 149, 24);}
+  
+    
+  .imageprize {width: 300px;
+    max-width: 100%;
+    height: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+    max-height: 100%;
+    border: whitesmoke 2px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px rgb(217, 212, 212);
+  
+  
+  }
+  
+  .imageprize:hover {
+    transform: scale(1.1);
+  }
+  .chung:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .noibat {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
+  @media screen and (max-width:800px) {
+    .noibat{
+      width: 100%;
+    }
+  }
+  .thongtin a{text-decoration: none
+  }
