@@ -21,7 +21,7 @@
   }
   .menu {
     justify-items: center;
-    background-color: rgb(230, 140, 23);
+    background-color: rgb(240, 184, 111);
     margin-bottom: 5px;
   }
   .mainmenu {
@@ -54,7 +54,7 @@
     font-size: 20px;
   }
   li a:hover {
-    background-color: rgb(227, 179, 117);
+    background-color: rgb(234, 162, 68);
   }
   .image {
     width:100%;
