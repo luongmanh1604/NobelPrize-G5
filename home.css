@@ -195,3 +195,50 @@
 .gocphai {
   float: right;
 }
+.phan1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tt {
+  float: left;
+  padding: 10px;
+}
+
+.tt.quicknote {
+  width: 25%;
+}
+
+/* Middle column */
+.tt.chinh {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.phan1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .tt.chinh, .tt.quicknote {
+    width: 100%;
+  }
+}
+.phan1 {
+  border: 1px solid rgb(231, 145, 53);
+  border-radius: 5px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+strong {
+  font-size: 20px;
+  color: rgb(245, 149, 24);
+}
+span {
+  margin: 0px 20px;
+  font-size: 18px;
+  color: rgb(245, 149, 24);
+}
