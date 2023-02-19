@@ -1,0 +1,67 @@
+form {
+    box-shadow: 5px 5px rgb(243, 241, 234);
+      border:solid 0.5px;
+      border-color: rgb(190, 187, 187);
+      margin-top: 20px;
+      border-radius: 8px;
+      padding-left: 50px;
+      background-color: rgb(243, 248, 248);
+} 
+.tieude2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(245, 149, 24);  
+}
+
+
+#header{
+    width: 960px;
+    margin: 0 auto;
+}
+#video{
+    text-align: center;
+}
+#midder1{
+    width: 960px;
+    margin: 0 auto;
+}
+#video1{
+    text-align: center;
+}
+#midder2{
+    width: 960px;
+    margin: 0 auto;
+}
+#video2{
+    text-align: center;
+}
+#midder3{
+    width: 960px;
+    margin: 0 auto;
+}
+#video3{
+    text-align: center;
+}
+#midder4{
+    width: 960px;
+    margin: 0 auto;
+}
+#video4{
+    text-align: center;
+}
+#midder5{
+    width: 960px;
+    margin: 0 auto;
+}
+#video5{
+    text-align: center;
+}
+#midder6{
+    width: 960px;
+    margin: 0 auto;
+}
+#video6{
+    text-align: center;
+}
+
