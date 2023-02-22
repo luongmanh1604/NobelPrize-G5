@@ -215,3 +215,98 @@ body {
 .menuphu li a:hover {
  color: rgb(245, 149, 24);
 }
+
+
+
+
+
+
+
+
+
+.cacgiaithuong {
+  margin-left: 20%;
+  font-size: 2em;
+  margin-right: 20%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.cacgiainobel{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.huychuongnobel{
+  width: 270px;
+  float: right;
+}
+.chitietcacgiaithuong{
+  font-size: 1.125em;
+}
+form.imghuychuong {
+  background-color: rgb(253, 254, 255);
+  border: 0.5px solid rgb(175, 169, 169);
+  float: right;
+  width: 275px;
+}
+.nobellifeandwork{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 40px;
+}
+.tieudenobellifeandwork{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: 2.5em;
+}
+.tieude2{
+  font-size: 1.8em;
+  margin-top: 30px;
+}
+a.noidunglifeandworknobel {
+  text-decoration: none;
+  color: rgb(48, 48, 207);
+  font-size: 1.3em;
+  
+}
+a.noidunglifeandworknobel:hover {
+  color: rgb(181, 181, 77);
+}
+.byof {
+  margin-top: 30px;
+  font-size: 1.2em;
+  margin-bottom: 50px;
+}
+.listgiaithuongcuanobel{
+  margin-top: 60px;
+  text-decoration: none;
+  color: rgb(48, 48, 207);
+  font-size: 1.3em;
+
+}
+.nhacuanobel {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.tieudenhanobel{
+  font-size: 2.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.chuthichnhanobel{
+  font-size: 1.125em;
+}
+.duoinhanobel {
+  font-size: 1.125em;
+  text-decoration: none;
+  color: rgb(48, 48, 207)
+
+}
+.shareand2022{
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+i {
+  margin-right: 5px;
+}
+i:hover {
+  color: rgb(181, 181, 77) ;
+}
