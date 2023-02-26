@@ -80,6 +80,7 @@ margin-bottom: 20px;
   font-size: 30px;
   margin-bottom: 40px;
 }
+
 .inmenu {
   max-width: 1500px;
   margin: 0 auto;
@@ -87,7 +88,7 @@ margin-bottom: 20px;
 }
 .menu {
   justify-items: center;
-  background-color:rgb(244, 236, 236);
+  background-color: rgb(247, 247, 247);
   margin-bottom: 5px;
 }
 .mainmenu {
@@ -129,7 +130,7 @@ li a {
   display: block;
 
 }
-
+/* footer */
 footer {
   background-color: rgb(247, 247, 247);
   border: 0.2px solid rgb(206, 191, 191);
@@ -143,18 +144,15 @@ footer {
 }
 .ft {
   float: left;
-  padding: 30px;
-  padding-left: 50px;
+  padding: 10px;
 }
 .ft.dstha {
   width: 30%;
 }
 .ft.contact {
   width: 35%;
-  margin-top: 50px;
 }
 .ft.follow {
-  margin-top: 50px;
   width: 35%;
 }
 @media screen and (max-width: 600px) {
@@ -174,7 +172,6 @@ footer {
   min-width: 160px;
   z-index: 1;
 }
-
 .thaxuong-content a {
   color: black;
   padding: 10px;
@@ -190,10 +187,18 @@ footer {
 .ft.contact a {
 text-decoration: none;
 color: black;
-font-size: 20px; 
+font-size: 20pxpx; 
+}
+.ft.contact li {
+margin-left: 30px;
+}
+.ft.contact {
+padding: 20px;
 }
 
-
+.mxh {
+margin-left: 100px;
+}
 .mxh a i {
 width: 50px;
 font-size: 30px;
@@ -206,23 +211,123 @@ color: rgb(245, 149, 24);
 list-style: none;
 } 
 .menuphu li {
-margin-bottom: 20px;
+margin: 20px;
 font-size: 20px;
 }
-
 .menuphu li a:hover {
 color: rgb(245, 149, 24);
 }
-.ftnew{
-  max-height: 700px;
-  background-color:rgb(244, 236, 236);
+
+
+
+h1 {
+text-align: center;
 }
-.contactus {margin-left: 30px;}
+
+
+.gocphai {
+float: right;
+margin-right: 10px;
+margin-top: 170px;
+}
 
 
 
+/* footer */
+/*
+footer {
+  background-color: rgb(247, 247, 247);
+  border: 0.2px solid rgb(206, 191, 191);
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.ft {
+  float: left;
+  padding: 10px;
+}
+.ft.dstha {
+  width: 30%;
+}
+.ft.contact {
+  width: 35%;
+}
+.ft.follow {
+  width: 35%;
+}
+@media screen and (max-width: 600px) {
+  .ft.contact, .ft.follow, .ft.follow {
+    width: 100%;
+  }
+}
+.ft.dstha {
+  position: relative;
+  display: inline-block;
+}
+
+.thaxuong-content {
+  display: contents;
+  position: absolute;
+  background-color: rgb(190, 187, 187);
+  min-width: 160px;
+  z-index: 1;
+}
+.thaxuong-content a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+.thaxuong-content a:hover {
+  background-color: rgb(234, 162, 68);
+}
+.ft.dstha:hover .thaxuong {
+  background-color: rgb(234, 162, 68);
+}
+.ft.contact a {
+text-decoration: none;
+color: black;
+font-size: 20pxpx; 
+}
+.ft.contact li {
+margin-left: 30px;
+}
+.ft.contact {
+padding: 20px;
+}
+
+.mxh {
+margin-left: 100px;
+}
+.mxh a i {
+width: 50px;
+font-size: 30px;
+color: rgb(29, 10, 238);
+}
+.mxh a i:hover {
+color: rgb(245, 149, 24);
+}
+.menuphu {
+list-style: none;
+} 
+.menuphu li {
+margin: 20px;
+font-size: 20px;
+}
+.menuphu li a:hover {
+color: rgb(245, 149, 24);
+}
 
 
+
+h1 {
+  text-align: center;
+}
+*/
 
 .cacgiaithuong {
 margin-left: 20%;
