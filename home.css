@@ -295,8 +295,24 @@ h2 {
   font-size: 20px;
 }
 .tt.chinh p {
-  font-size: 18px;
+
 }
 .thongtin{
   color: black;
+}
+/* pnc*/
+.pncchnb ,.pncchnb1,.pncchnb2,.pncchnb3,.pncchnb4{
+  cursor: pointer;
+  color: rgb(234, 124, 13);}
+.pnctlnb , .pnctlnb1 , .pnctlnb2 , .pnctlnb3,.pnctlnb4{
+  display: none;
+  font-size: 18px;
+}
+.pnc.active .pncchnobel{
+  color: black;
+}
+.pnccauhoi {
+  font-size:22px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
