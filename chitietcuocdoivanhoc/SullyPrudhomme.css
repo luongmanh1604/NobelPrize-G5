@@ -96,6 +96,8 @@ width: 70%;}
   margin-top: 10px;
 }
 .tieudephu{
+  color: rgb(230, 140, 23);
+
   font-size: 2.8em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 10px;
@@ -121,7 +123,7 @@ width: 70%;}
   margin-top: 30px;
 }
 .tieude2{
-  font-size: 1.9em;
+  color: rgb(230, 140, 23);  font-size: 1.9em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -246,6 +248,8 @@ margin-top: 170px;
   margin-top: 30px;
 }
 .nobel2022{
+  color: rgb(230, 140, 23); 
+
   font-size: 2.5em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;;
 }
