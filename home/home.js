@@ -29,3 +29,9 @@ $(document).ready(function() {
         $(this).parent().children('.pnctlnb4').slideToggle();
     });
 });
+/* js search */
+$(document).ready(function() {
+    $('.icsearch').click(function() {
+        $('.ipsearch').slideToggle();
+    });
+});
