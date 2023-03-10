@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nobel Prizes and Winner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/home/home.css">
@@ -25,9 +26,14 @@
                 <li><a href="/yhoc/yhoc.html">Medicine Prize</a></li>
                 <li><a href="#">Peace Prize</a></li>
                 <li><a href="/kinhte/kinhte.html">Prize in Economic Sciences</a></li>
+                <li><p class="icsearch"><i style="font-size: 20px;  margin-left: 33px;" class="fa-solid fa-magnifying-glass"></i></p></li>
+                
 
             </ul>
         </nav>
+    </div>
+    <div class="ipsearch">
+      <input class="search" id="search" type="text" placeholder="Enter your search here">
     </div>
 
     <div><img class="image" src="/home/nobelsieuvip.png"></div>
@@ -510,6 +516,25 @@
   
 </footer>
    <script src="/home/home.js"></script>
+   <script>
+    const searchInput = document.getElementById('search');
+  
+  searchInput.addEventListener('keyup', function() {
+    const searchTerm = searchInput.value.toLowerCase(); // lấy giá trị từ input và chuyển về chữ thường
+    const headings = document.querySelectorAll('.noibat,form.prize,.image'); // lấy tất cả các heading
+    
+    headings.forEach(function(heading) {
+      const headingText = heading.textContent.toLowerCase(); // lấy nội dung của heading và chuyển về chữ thường
+      if (headingText.includes(searchTerm)) { // kiểm tra nếu heading chứa từ khóa tìm kiếm
+        heading.style.display = 'block'; // hiển thị heading nếu phù hợp
+      } else {
+
+        heading.style.display = 'none'; // ẩn heading nếu không phù hợp
+      }
+    });
+  });
+  
+  </script>
 </body>
 </html>
 
